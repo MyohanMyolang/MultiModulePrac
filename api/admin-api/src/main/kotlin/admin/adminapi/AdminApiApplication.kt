@@ -1,11 +1,12 @@
-package account
+package admin.adminapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
-class AccountApiApplication
+class AdminApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<AccountApiApplication>(*args)
+	runApplication<AdminApiApplication>(*args)
 }
