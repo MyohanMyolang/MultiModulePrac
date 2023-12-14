@@ -46,6 +46,5 @@ subprojects{
 
 project(":api:account-api"){
     dependencies{
-        implementation(project(":domain:member"))
     }
 }
